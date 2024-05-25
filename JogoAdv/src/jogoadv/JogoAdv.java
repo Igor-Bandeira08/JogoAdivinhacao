@@ -23,8 +23,7 @@ public class JogoAdv {
 
             switch (O) {
                 case 1: {
-                    System.out.println("Digite seu nome: ");
-                   
+
                     int n = 0;
 
                     Random ale = new Random();
