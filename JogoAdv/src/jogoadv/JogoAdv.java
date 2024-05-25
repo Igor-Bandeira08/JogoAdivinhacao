@@ -10,7 +10,7 @@ public class JogoAdv {
         
         int n = 1;
         Random ale = new Random();
-        int a = ale.nextInt(100);
+        int a = ale.nextInt(10);
         for (int i = 0;i<n; i++) {
         System.out.println("Digite um número de 0 a 100: ");
          n = l.nextInt();
