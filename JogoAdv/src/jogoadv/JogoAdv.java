@@ -5,16 +5,14 @@ import java.util.Scanner;
 
 public class JogoAdv {
 
-
-
     public static void main(String[] args) {
         Scanner l = new Scanner(System.in);
 
         int O;
-        
+
         System.out.println("Digite seu nome: ");
         String nome = l.nextLine();
-        
+
         do {
             System.out.println("Olá " + nome + ", você deseja jogar uma partida de adivinhação?");
             System.out.println("1 - Começar ");
@@ -24,13 +22,14 @@ public class JogoAdv {
 
             switch (O) {
                 case 1: {
-                    
+
                     int n = 0;
 
                     Random ale = new Random();
                     int a = ale.nextInt(10);
 
                     for (int i = -1; i <= n; i++) {
+
                         System.out.println("Digite um número de 0 a 10: ");
 
                         n = l.nextInt();
@@ -44,6 +43,7 @@ public class JogoAdv {
                         } else if (n > a) {
                             System.out.println("O número " + n + " é maior que o numero aleatório");
                         }
+
                     }
                     break;
                 }
