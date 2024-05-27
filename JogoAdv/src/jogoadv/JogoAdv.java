@@ -6,10 +6,6 @@ import java.util.Scanner;
 public class JogoAdv {
 
 
-    public static void Jogo() {
-
-    }
-
 
     public static void main(String[] args) {
         Scanner l = new Scanner(System.in);
